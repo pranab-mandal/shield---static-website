@@ -207,3 +207,13 @@
     font-size: 15px;
   }
 }
+
+/* Hide Manage Account in Clerk UserButton Popover */
+.cl-userButtonPopoverActionButton__manageAccount,
+[data-localization-key="userButton.action__manageAccount"],
+.cl-userButtonPopoverActions button.cl-userButtonPopoverActionButton:first-child:not(:only-child),
+.cl-userButtonPopoverActions > div > button:first-child:not(:only-child),
+button[aria-label="Manage account"] {
+  display: none !important;
+}
+

@@ -83,10 +83,10 @@ const Home = () => (
 
           <div className="pt-6 flex flex-wrap gap-4 pointer-events-auto">
             <Link 
-              to="/team" 
+              to="/activities#latest-events" 
               className="px-6 py-3 bg-[#61dca3] text-neutral-950 font-semibold rounded transition-colors duration-200 hover:bg-[#4fbe8b]"
             >
-              Join the Society
+              Register for Event
             </Link>
             
             <Link 
